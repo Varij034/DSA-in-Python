@@ -14,11 +14,8 @@ node2.next=node3
 node3.next=node4
 node4.next=node5
 
-current=head
-while current.next.data != 40:
-    current=current.next
-current.next=current.next.next
-
+if head is not None:
+    head=head.next
 
 current=head
 while current is not None:
